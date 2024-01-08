@@ -10,8 +10,8 @@ body {
 }
 
 /* banner section end  */
-.container{
-    max-width:1240px;
+.container {
+    max-width: 1140px;
     width: 85%;
     margin: 50px auto;
 }
@@ -57,9 +57,11 @@ body {
     margin: 0 auto;
 }
 
-.container-holiday .holiday-text {
+.holiday-text {
     text-align: center;
-    
+    justify-content: center;
+    padding: 50px 50px;
+    margin: 50px;
 }
 
 .holiday-text h2 {
@@ -72,18 +74,20 @@ body {
     line-height: normal;
 }
 
-.holiday-text h5{
+.holiday-text p {
     color: #f00;
+
     text-align: center;
     font-family: Inter;
-    font-size:px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
 }
 
 .holiday-text h4 {
     color: #070211;
+
     text-align: center;
     font-family: Inter;
     font-size: 35px;
@@ -135,11 +139,10 @@ body {
 .midnight-text p {
 color: rgba(255, 255, 255, 0.80);
 font-family: Inter;
-font-size: 16px;
+font-size: 10px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
-text-align: justify;
 }
 
 button {
@@ -151,15 +154,9 @@ button {
     font-weight: 400;
     line-height: normal;
     text-transform:uppercase;
-    background:#411599;
-    border-radius: 10px;
+    background: #070211;
     border:none;
     padding: 10px 10px;
-}
-button:hover{
-    background: skyblue;
-    transition: 1s;
-
 }
 
 .midmight-img{
@@ -189,7 +186,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
-background:#411599;
+background: #f00;
 margin-top: 20px;
 
 
@@ -228,11 +225,10 @@ line-height: normal;
 .offer-text p{
 color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
-font-size: 16px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 padding: 10px 100px 10px 0px;
-text-align: justify;
 
 }
 .offer-img img{
@@ -263,7 +259,6 @@ padding-bottom: 20px;
     font-style: normal;
     font-weight: 400;
     padding-bottom: 20px;
-    text-align: justify;
     
 }
 
@@ -299,52 +294,15 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 padding: 5px 100px;
-text-align: justify;
 }
 span{
     color: #f00;
 }
 
 .holiday-img{
-display: flex;
-position:relative;
+    width: 0 auto;
+    border: 1px solid red;
 }
-.holiday-img .div1 img{
-position: relative;
-z-index: 1;
-top:90px;
-right:-100px;
-
-}
-.holiday-img .div2 img{
-    position: absolute;
-    width:500px;
-    height: 400px;
-}
-.holiday-img .div3 img{
-    position: absolute;
-    left:0;
-    top:200px;
-    width:400px;
-    z-index:1;
-}
-.holiday-img .div4 img{
-    position:absolute;
-    left:0;
-    top:400px;
-    width:995px;
-    height:100px;
-  
-   
-   
-}
-#holiday-offer{
-     margin-bottom:50px;
-}
-
-
-
-
 
 
 
@@ -361,7 +319,6 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 margin-bottom: 10px;
-
 }
 .protfolio-text h4{
     color: #070211;
@@ -376,12 +333,11 @@ margin-bottom: 10px;
 .protfolio-text p{
 color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
-font-size: 16px;
+font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; 
 margin-bottom: 10px;
-text-align: justify;
 }
 .image-div{
     display: flex;
@@ -392,9 +348,7 @@ text-align: justify;
 
 .image-div img{
    width:350px;
-   height:350px;
-   padding-left: 10px;
-
+   height: 350px;
    
 }
 /* portfolio section end  */
@@ -430,7 +384,6 @@ text-transform: capitalize;
     font-weight: 400;
     line-height: 32px;
     padding: 10px 100px;
-    text-align: justify;
 }
 
 .subscribe-button{
@@ -444,14 +397,13 @@ line-height: normal;
 text-transform: capitalize;
 background: #F00;
 border-radius:0px 50px 50px 0px;
-padding: 13px;
 
 }
 
 .subscribe-input input{
 display:inline-block;
 border:none;
-padding:16px;
+padding:15px;
 width: 250px;
 border-radius:50px 0px 0px 50px;
 }
@@ -473,7 +425,6 @@ font-style: normal;
 font-weight: 500;
 line-height: 40px; 
 color: #FFF;
-text-align: justify;
 }
 .footer-text{
     display: flex;
@@ -511,11 +462,10 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 color: #FFF;
-text-align: justify;
 }
 hr{
     width: 50%;
-    color: #19065d;
+    color: #8f3f3f;
     margin: 0 auto;
 
 }

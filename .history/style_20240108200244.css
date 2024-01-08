@@ -84,6 +84,7 @@ body {
 
 .holiday-text h4 {
     color: #070211;
+
     text-align: center;
     font-family: Inter;
     font-size: 35px;
@@ -333,13 +334,13 @@ right:-100px;
     left:0;
     top:400px;
     width:995px;
-    height:100px;
-  
+    height:50px;
+    z-index:-1;
    
    
 }
 #holiday-offer{
-     margin-bottom:50px;
+     margin-bottom: 50px;
 }
 
 
@@ -392,9 +393,7 @@ text-align: justify;
 
 .image-div img{
    width:350px;
-   height:350px;
-   padding-left: 10px;
-
+   height: 350px;
    
 }
 /* portfolio section end  */
@@ -451,7 +450,7 @@ padding: 13px;
 .subscribe-input input{
 display:inline-block;
 border:none;
-padding:16px;
+padding:15px;
 width: 250px;
 border-radius:50px 0px 0px 50px;
 }

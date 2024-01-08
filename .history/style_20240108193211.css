@@ -57,9 +57,11 @@ body {
     margin: 0 auto;
 }
 
-.container-holiday .holiday-text {
+.holiday-text {
     text-align: center;
-    
+    justify-content: center;
+    padding: 50px 50px;
+    margin: 50px;
 }
 
 .holiday-text h2 {
@@ -72,18 +74,21 @@ body {
     line-height: normal;
 }
 
-.holiday-text h5{
+.holiday-text p {
     color: #f00;
+
     text-align: center;
     font-family: Inter;
-    font-size:px;
+    font-size: 16px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
+    text-align: justify;
 }
 
 .holiday-text h4 {
     color: #070211;
+
     text-align: center;
     font-family: Inter;
     font-size: 35px;
@@ -320,26 +325,27 @@ right:-100px;
     position: absolute;
     width:500px;
     height: 400px;
+
+    
 }
 .holiday-img .div3 img{
     position: absolute;
     left:0;
     top:200px;
     width:400px;
-    z-index:1;
+    z-index: 1;
 }
 .holiday-img .div4 img{
     position:absolute;
     left:0;
     top:400px;
     width:995px;
-    height:100px;
-  
+    height: 105px;
    
    
 }
 #holiday-offer{
-     margin-bottom:50px;
+     margin-bottom: 50px;
 }
 
 
@@ -376,7 +382,7 @@ margin-bottom: 10px;
 .protfolio-text p{
 color: rgba(7, 2, 17, 0.60);
 font-family: Inter;
-font-size: 16px;
+font-size: 10px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; 
@@ -392,9 +398,7 @@ text-align: justify;
 
 .image-div img{
    width:350px;
-   height:350px;
-   padding-left: 10px;
-
+   height: 350px;
    
 }
 /* portfolio section end  */
@@ -444,14 +448,14 @@ line-height: normal;
 text-transform: capitalize;
 background: #F00;
 border-radius:0px 50px 50px 0px;
-padding: 13px;
+padding: 15px;
 
 }
 
 .subscribe-input input{
 display:inline-block;
 border:none;
-padding:16px;
+padding:15px;
 width: 250px;
 border-radius:50px 0px 0px 50px;
 }

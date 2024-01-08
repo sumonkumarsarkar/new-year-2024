@@ -76,7 +76,7 @@ body {
     color: #f00;
     text-align: center;
     font-family: Inter;
-    font-size:px;
+    font-size:16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -84,6 +84,7 @@ body {
 
 .holiday-text h4 {
     color: #070211;
+
     text-align: center;
     font-family: Inter;
     font-size: 35px;
@@ -95,7 +96,7 @@ body {
 .holiday-img {
     text-align: center;
     justify-content: center;
-    width: 680px;
+    width:500px;
     height: 500px;
 }
 
@@ -320,26 +321,27 @@ right:-100px;
     position: absolute;
     width:500px;
     height: 400px;
+
+    
 }
 .holiday-img .div3 img{
     position: absolute;
     left:0;
     top:200px;
     width:400px;
-    z-index:1;
+    z-index: 1;
 }
 .holiday-img .div4 img{
     position:absolute;
     left:0;
     top:400px;
     width:995px;
-    height:100px;
-  
+    height: 105px;
    
    
 }
 #holiday-offer{
-     margin-bottom:50px;
+     margin-bottom: 50px;
 }
 
 
@@ -392,9 +394,7 @@ text-align: justify;
 
 .image-div img{
    width:350px;
-   height:350px;
-   padding-left: 10px;
-
+   height: 350px;
    
 }
 /* portfolio section end  */
@@ -451,7 +451,7 @@ padding: 13px;
 .subscribe-input input{
 display:inline-block;
 border:none;
-padding:16px;
+padding:15px;
 width: 250px;
 border-radius:50px 0px 0px 50px;
 }

@@ -76,7 +76,7 @@ body {
     color: #f00;
     text-align: center;
     font-family: Inter;
-    font-size:px;
+    font-size:16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -84,6 +84,7 @@ body {
 
 .holiday-text h4 {
     color: #070211;
+
     text-align: center;
     font-family: Inter;
     font-size: 35px;
@@ -92,11 +93,12 @@ body {
     line-height: normal;
 }
 
-.holiday-img {
+.container-holiday .holiday-img img{
     text-align: center;
-    justify-content: center;
-    width: 680px;
-    height: 500px;
+    width:750px;
+    height:400px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* holiday -section start  */
@@ -204,9 +206,9 @@ margin-top: 20px;
     justify-content: space-between;
     align-items: center;
 }
-.best-banner{
+#best-banner{
     background: #FFF;
-    margin-top: 50px;
+  
 }
 .offer-text h5{
 color: #F00;
@@ -231,7 +233,7 @@ font-family: Inter;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-padding: 10px 100px 10px 0px;
+padding: 10px 10px 10px 0px;
 text-align: justify;
 
 }
@@ -241,9 +243,11 @@ border: 10px solid #F00;
 padding: 10px;
 width: 250px;
 
+
 }
 .offer-text-img{
     text-align: center;
+    padding-left:20px;
    
 }
 .offer-text-img h3{
@@ -320,26 +324,27 @@ right:-100px;
     position: absolute;
     width:500px;
     height: 400px;
+
+    
 }
 .holiday-img .div3 img{
     position: absolute;
     left:0;
     top:200px;
     width:400px;
-    z-index:1;
+    z-index: 1;
 }
 .holiday-img .div4 img{
     position:absolute;
     left:0;
     top:400px;
     width:995px;
-    height:100px;
-  
+    height: 105px;
    
    
 }
 #holiday-offer{
-     margin-bottom:50px;
+     margin-bottom: 50px;
 }
 
 
@@ -392,9 +397,7 @@ text-align: justify;
 
 .image-div img{
    width:350px;
-   height:350px;
-   padding-left: 10px;
-
+   height: 350px;
    
 }
 /* portfolio section end  */
@@ -451,7 +454,7 @@ padding: 13px;
 .subscribe-input input{
 display:inline-block;
 border:none;
-padding:16px;
+padding:15px;
 width: 250px;
 border-radius:50px 0px 0px 50px;
 }
