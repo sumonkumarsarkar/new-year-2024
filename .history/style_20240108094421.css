@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+ .container{
+    max-width:1320px;
+    max-height: 600px;
+
+ }
+ .banner{
+    /* background-image: url(./image/Banner\ Image.png); */
+ }
+ .heading-text{
+   
+ } 

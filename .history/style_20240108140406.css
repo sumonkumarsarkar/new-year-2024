@@ -5,8 +5,6 @@
 
 body {
     font-family: "Inter", sans-serif;
-    width:100%;
-    max-width:1320px;
 }
 
 /* banner section end  */
@@ -299,7 +297,6 @@ line-height: normal;
 text-transform: capitalize;
 background: #F00;
 border-radius:0px 50px 50px 0px;
-
 }
 
 .subscribe-input input{
@@ -310,66 +307,3 @@ width: 250px;
 border-radius:50px 0px 0px 50px;
 }
 /* subscribe section end  */
-
-
-
-/* footer section start  */
-.footer-cntainer{
-    width:100%;
-    max-width:1320px;
-    background: #070211;
-
-
-}
-.nornal-text p{
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; 
-color: #FFF;
-}
-.footer-text{
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-around;
-    padding:50px 100px;
-
-
-}
-.icon-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:50px;
-}
-.icon-img img{
-    margin: 10px;
-}
-.icon-text{
- font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px; 
-color: #FFF;
-}
-
-.footer-last-text{
-    display: flex;
-    justify-content: space-between;
-}
-.footer-last-text p{
-padding: 100px;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-color: #FFF;
-}
-hr{
-    width: 50%;
-    color: #8f3f3f;
-    margin: 0 auto;
-
-}
-
-/* footer section end  */

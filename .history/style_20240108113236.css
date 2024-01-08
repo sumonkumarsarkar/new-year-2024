@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* banner section end  */
+.container {
+    max-width: 1140px;
+    width: 85%;
+    margin: 50px auto;
+}
+
+.banner {
+    background-image: url(./image/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-text {
+    text-align: center;
+    justify-content: center;
+    padding: 177px 300px;
+}
+
+.heading-text h3 {
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.heading-text h4 {
+    color: #fff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* banner section end  */
+
+/* holiday -section start  */
+.container-holiday {
+    width: 85%;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.holiday-text {
+    text-align: center;
+    justify-content: center;
+    padding: 50px 50px;
+    margin: 50px;
+}
+
+.holiday-text h2 {
+    color: #f00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.holiday-text p {
+    color: #f00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-text h4 {
+    color: #070211;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.holiday-img {
+    text-align: center;
+    justify-content: center;
+    width: 680px;
+    height: 500px;
+}
+
+/* holiday -section start  */
+
+/* midnight party start  */
+
+.midnight-banner {
+    background-image: url("./image/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.midnight-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.midnight-text {
+    padding: 50px 50px;
+    align-items: center;
+}
+
+.midnight-text h3 {
+
+    align-items: center;
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+
+
+}
+
+.midnight-text p {
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+button {
+    color: #FFF;
+    text-align:center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style:normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform:uppercase;
+    background: #070211;
+    border:none;
+    padding: 10px 10px;
+}
+
+.midmight-img{
+    padding:50px 50px ;
+}
+
+/* midnight party end */

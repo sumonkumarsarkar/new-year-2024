@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* banner section end  */
+ .container{
+    max-width:1140px;
+    width: 85%;
+    margin: 50px auto;
+
+ }
+ .banner{
+    background-image: url(./image/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+ .heading-text{
+   text-align:center;
+   justify-content:center;
+   padding: 177px 300px ;
+   
+ } 
+ .heading-text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+   
+ } 
+ .heading-text h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* banner section end  */
+
+
+/* holiday -section start  */
+.container-holiday{
+    width: 85%;
+    max-width:580px;
+    margin: 0 auto;
+}
+.holiday-text{
+   text-align:center;
+   justify-content:center;
+   padding:50px 50px;
+   margin: 50px;
+   
+}
+.holiday-text h2{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size:70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.holiday-text p{
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+.holiday-text h4{
+    color: #070211;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+
+.holiday-img{
+   text-align:center;
+   justify-content:center;
+   width:;
+   margin: 20px auto;
+   
+}
+
+
+
+/* holiday -section start  */

@@ -332,15 +332,13 @@ color: #FFF;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
-    padding:50px 100px;
-
+    padding: 100px;
 
 }
 .icon-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:50px;
 }
 .icon-img img{
     margin: 10px;
@@ -369,7 +367,7 @@ hr{
     width: 50%;
     color: #8f3f3f;
     margin: 0 auto;
-
+    
 }
 
 /* footer section end  */

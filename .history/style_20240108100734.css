@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+ .container{
+    max-width:1140px;
+    width: 85%;
+    margin: 0 auto;
+
+ }
+ .banner{
+    background-image: url(./image/Banner\ Image.png);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+ .heading-text{
+   text-align:center;
+   justify-content:center;
+   padding: 177px 300px ;
+   
+ } 
+ .heading-text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+   
+ } 
+ .heading-text h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
