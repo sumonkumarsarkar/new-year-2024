@@ -307,40 +307,41 @@ span{
     color: #f00;
 }
 
- .banner-item{
-    width:1080px;
-    position:relative;
-    margin:700px auto;
+.holiday-img{
+    max-width:1240px;
+    width: 85%;
+    margin: 50px auto;
+    position: relative;
+}
+.div1 img{
+position: relative;
+z-index: 1;
+right:300px;
+bottom: 200px;
 
 }
-.box1{
-    position:absolute;
-    bottom:200px;
-    right:350px;
-    z-index: 1;
-}
-.box2{
-    
-    bottom:176px;
-    border-radius:100px;
+.div2 img{
     position: absolute;
     right:0;
-    z-index: -1;
+    bottom: 200px;
+    
 }
-.box3{
-   
+.div3 img{
     position: absolute;
-    bottom:0px;
-    right:400px;
+    left:100px;
+    bottom: 10px;
     z-index:1;
-
 }
-.box4 img{
-    width:1080px;
-    bottom:0;
-    left:0;
-    position: absolute;
-    margin-bottom: 50px;
+.div4 img{
+    position:absolute;
+    max-width:1240px;
+    bottom: 0;
+  
+   
+   
+}
+#holiday-offer{
+     margin-bottom:50px;
 }
 
 
@@ -438,7 +439,7 @@ text-transform: capitalize;
 color: #FFF;
 text-align: center;
 font-family: Inter;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -522,9 +523,6 @@ hr{
 }
 span img{
     width: 15px;
-}
-span i{
-    padding: 10px;
 }
 
 /* footer section end  */
