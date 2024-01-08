@@ -238,14 +238,12 @@ text-align: justify;
 .offer-img img{
 border-radius:200px;
 border:10px solid #F00;
-padding:10px 20px 10px 10px;
+padding:10px;
 width: 250px;
 
 }
 .offer-text-img{
     text-align: center;
-    padding:10px;
-    margin-left:10px;
    
 }
 .offer-text-img h3{

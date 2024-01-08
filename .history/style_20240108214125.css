@@ -231,21 +231,19 @@ font-family: Inter;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-padding: 10px 50px 10px 0px;
+padding: 10px 100px 10px 0px;
 text-align: justify;
 
 }
 .offer-img img{
 border-radius:200px;
-border:10px solid #F00;
-padding:10px 20px 10px 10px;
+border: 10px solid #F00;
+padding:20px;
 width: 250px;
 
 }
 .offer-text-img{
     text-align: center;
-    padding:10px;
-    margin-left:10px;
    
 }
 .offer-text-img h3{

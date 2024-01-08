@@ -231,21 +231,19 @@ font-family: Inter;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-padding: 10px 50px 10px 0px;
+padding: 10px 100px 10px 0px;
 text-align: justify;
 
 }
 .offer-img img{
 border-radius:200px;
-border:10px solid #F00;
-padding:10px 20px 10px 10px;
+border: 10px solid #F00;
+padding: 10px;
 width: 250px;
 
 }
 .offer-text-img{
     text-align: center;
-    padding:10px;
-    margin-left:10px;
    
 }
 .offer-text-img h3{
@@ -321,7 +319,7 @@ right:-100px;
 .holiday-img .div2 img{
     position: absolute;
     width:585px;
-    height:400px;
+    
 }
 .holiday-img .div3 img{
     position: absolute;
@@ -334,8 +332,8 @@ right:-100px;
     position:absolute;
     left:0;
     top:400px;
-    width:1080px;
-    height:100px;
+    width:1140px;
+   
   
    
    
